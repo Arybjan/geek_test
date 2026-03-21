@@ -1,5 +1,5 @@
 from rest_framework.routers import DefaultRouter
-from views import TaskViewSet
+from .views import TaskViewSet
 
 
 router = DefaultRouter()
